@@ -279,7 +279,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &951373230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -294,6 +294,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   animalName: Lion
+  rateOfRandomDecay: 0.02
+  oddsOfHungerDecay: 40
+  oddsOfThirstDecay: 30
+  oddsOfEnergyDecay: 30
 --- !u!4 &951373231
 Transform:
   m_ObjectHideFlags: 0
@@ -339,6 +343,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   animalName: Zebra
+  rateOfRandomDecay: 0.01
+  oddsOfHungerDecay: 33
+  oddsOfThirstDecay: 33
+  oddsOfEnergyDecay: 33
 --- !u!4 &1174488790
 Transform:
   m_ObjectHideFlags: 0
@@ -369,7 +377,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1370541784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -384,6 +392,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   animalName: Elephant
+  rateOfRandomDecay: 0.05
+  oddsOfHungerDecay: 10
+  oddsOfThirstDecay: 50
+  oddsOfEnergyDecay: 40
 --- !u!4 &1370541785
 Transform:
   m_ObjectHideFlags: 0
